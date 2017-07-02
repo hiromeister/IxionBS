@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+/*font-family: 'Archivo Narrow', sans-serif;*/
+
+* { font-family: 'Archivo Narrow', sans-serif; }
+
+.preNav {background-color: red;}
+
+nav { font-family: 'Archivo Narrow', sans-serif; }
+
+ nav .container {width: 1080px;}
+
+/*    color: #D7B227;
+*/
+.jumbotron .container { background-image: url("../img/cropped-bookshelf.jpg"); 
+						height: 500px;
+						width: 1080px;
+						color:white; font-family: 'Archivo Narrow', sans-serif;}
+
+.texteButton { position:relative; top: 270px;
+			   margin-left: 20px; }	
+
+.jumbotron .container p { font-size: 47px; font-weight: bold;  }
+
+.btn { font-size: 100px; 
+			   width: 260px; height: 60px;
+			   background-color: #D7B221; }
+
+.thumbnails .container { display:flex; justify-content: space-between;
+						 width: 1080px;}
+
+.news, .community, .navigation, .social { float: left; list-style: none; padding-left: 20px;}
+
+.articles .container {width: 1080px;} 
+
+
+span { color:#D7B221; }
+
+h1 { font-weight: bold; }
+
+footer .container {width: 1080px;}
+
+footer li { list-style: none; }
+
+.articles h1 {font-weight: bold;}
+.articles h3 { font-weight: bold;}
+
+
+.navbar-default .navbar-brand{color:red;}
